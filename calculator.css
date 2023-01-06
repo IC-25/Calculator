@@ -1,6 +1,6 @@
 body{
 	font-family: 'open Sans-serif';
-	background:black;
+	background:rgb(39, 1, 1);
 }
  #container{
 	width: 1000px;
@@ -18,12 +18,11 @@ body{
 #calculator{
 	width: 320px;
 	height: 520px;
-	background-color: #eaedef;
+	background-color: white;
 	margin: 0 auto;
 	top: 60px;
 	border-radius: 5px;
 	position: relative;
-	box-shadow: 0 4px 8px 0 lightsteelblue, 0 6px 20px 0 blue;
 }
 #result{
 	height: 120px;
@@ -60,7 +59,7 @@ body{
 	font-size: 15px;
 }
 .number, .empty{
-	background-color: #eaedef;
+	font-size: 20px;
 }
 .number, .operator{
 	cursor: pointer;
@@ -71,30 +70,54 @@ body{
 .operator:focus, .number:focus, .empty:focus{
 	outline: 0;
 }
-button:nth-child(4){
+button:nth-child(1){
 	font-size: 20px;
-	background-color: #20b2aa;
+	color: blue;
+	font-size: 25px;
 
 }
+button:nth-child(2){
+	font-size: 20px;
+	color: blue;
+	font-size: 25px;
+
+}
+button:nth-child(3){
+	font-size: 20px;
+	color: blue;
+	font-size: 25px;
+
+}
+button:nth-child(4){
+	font-size: 20px;
+	color: blue;
+	font-size: 25px;
+
+}
+
 button:nth-child(8){
 	font-size: 20px;
-	background-color: #ffa500;
+	color: blue;
+	font-size: 25px;
 
 }
 button:nth-child(12){
 	font-size: 20px;
-	background-color: #f08080;
+	color: blue;
+	font-size: 25px;
 
 }
 button:nth-child(16){
 	font-size: 20px;
-	background-color: #7d93e0;
+	color: blue;
+	font-size: 25px;
 
 }
 button:nth-child(20){
 	font-size: 20px;
-	background-color: #9477af;
-
+	color: white;
+	background-color: blue;
+	font-size: 40px;
 }
 #footer{
 	/*padding: 100px 0 20px;*/
